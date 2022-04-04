@@ -1,14 +1,8 @@
-# NFT ERC-721 Basic Example
-
-# Nick 流程
+# NFT ERC-721 Basic Example(Nick 流程)
 
 - 大綱
 
-#
 
-##
-
-###
 
 # 參考影片
 
@@ -69,7 +63,7 @@
 
 7. 若找到以下 NFT 即代表大功告成 !
 
-   ![Untitled](Nick%20%E6%B5%81%E7%A8%8B%20fc3eb/Untitled.png)
+   ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled.png)
 
 # 上傳拼圖
 
@@ -189,8 +183,8 @@
 3. 到 deploy 區域，在 At Address 輸入合約的(0x5E44962F97b1d5378Cb91C8a37DF9e58C771C193)
    - 不太確定合約地址怎麼找，已知兩方法:
      - 第一次佈署的時候直接記下來
-       ![Untitled](Nick%20%E6%B5%81%E7%A8%8B%20fc3eb/Untitled%201.png)
+       ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled%201.png)
      - 去小狐狸錢包的交易紀錄翻找 (但如果不止一個合約 or 交易頻繁就會很難找)
      - **Update : 小狐狸 ⇒ etherscan ⇒ view contract creation 可以找到所有帳號創造的合約**
-       ![Untitled](Nick%20%E6%B5%81%E7%A8%8B%20fc3eb/Untitled%202.png)
+       ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled%202.png)
 4. 點擊 At Address 就可以操作合約了
