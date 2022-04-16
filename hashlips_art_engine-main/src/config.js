@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Chieh Testing";
 const description = "Chieh NFT Testing";
-const baseUri = "ipfs://QmYQzUs9R1SuHRJfxJnh8GNmL9WdHvZLjywwcJvEju8XC6";
+const baseUri = "ipfs://QmabBaiU4TZrz57aFRn3PG1FCeKf3gjwfyrhiSENmnvunw";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10, //5,
+    growEditionSizeTo: 15, //5,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
