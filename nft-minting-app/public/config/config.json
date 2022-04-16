@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xC839e39c2ca863baFb004c01002a407B3EaA2373",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0xc839e39c2ca863bafb004c01002a407b3eaa2373",
+  "NETWORK": {
+    "NAME": "Matic Mumbai",
+    "SYMBOL": "MATIC",
+    "ID": 80001
+  },
+  "NFT_NAME": "Chieh",
+  "SYMBOL": "CHNFT",
+  "MAX_SUPPLY": 15,
+  "WEI_COST": 150000000000000000, 
+  "DISPLAY_COST": 0.15,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nic-meta-kyzwhbzabk",
+  "SHOW_BACKGROUND": true
+}
