@@ -1,9 +1,5 @@
 # NFT ERC-721 Basic Example(Nick 流程)
 
-- 大綱
-
-
-
 # 參考影片
 
 [NFT 智能合約開發全攻略! 發行 NFT 背後的技術實戰及原理! 盲盒、公開發售怎麼做到的? | 在地上滾的工程師 Nic](https://www.youtube.com/watch?v=3vWw9Xt48bs&ab_channel=%E5%9C%A8%E5%9C%B0%E4%B8%8A%E6%BB%BE%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%B8%ABNic)
@@ -63,7 +59,7 @@
 
 7. 若找到以下 NFT 即代表大功告成 !
 
-   ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled.png)
+   ![picture](./pic/Untitled.png)
 
 # 上傳拼圖
 
@@ -102,7 +98,9 @@
    ```
 
 4. 建立圖片
+
    - 確認是否有下載 yarn package
+
      ```cpp
      // check version
      yarn --version
@@ -110,7 +108,9 @@
      //if not installed then install
      npm install --global yarn
      ```
+
    - 產生圖片
+
      ```cpp
      //在node_modules目錄安裝package.json中列出的所有依賴
      //第一次需要(吧?
@@ -119,7 +119,9 @@
      //產生圖片
      yarn run build
      ```
+
    - 在 build 裡面即可看到，image 資料夾存放圖片，json 裡面存放 metadata，代表眼睛的參數(NFT 屬性)，讓使用者可以在 opensea 上面看到。
+
 5. Pinata
    - 是一種 IPFS(星際文件系統)
      - IPFS Intro Ref(還沒看，但感覺像是去中心化的 http 協議，用區塊鏈儲存檔案) :
@@ -183,8 +185,8 @@
 3. 到 deploy 區域，在 At Address 輸入合約的(0x5E44962F97b1d5378Cb91C8a37DF9e58C771C193)
    - 不太確定合約地址怎麼找，已知兩方法:
      - 第一次佈署的時候直接記下來
-       ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled%201.png)
+       ![picture](./pic/Untitled%201.png)
      - 去小狐狸錢包的交易紀錄翻找 (但如果不止一個合約 or 交易頻繁就會很難找)
      - **Update : 小狐狸 ⇒ etherscan ⇒ view contract creation 可以找到所有帳號創造的合約**
-       ![picture](https://github.com/franklu00313/ntua_nft_deploy/blob/main/README%20pic/Untitled%202.png)
+       ![picture](./pic/Untitled%202.png)
 4. 點擊 At Address 就可以操作合約了
